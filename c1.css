@@ -1,0 +1,151 @@
+*{
+    font-family: cursive;
+    font-weight: 1000;
+    margin-top: 0;
+    
+    
+    
+}
+
+body
+{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,0.40371229698375866) 0%, rgba(189,14,228,0.2668213457076566) 46%, rgba(0,212,255,0.5614849187935035) 100%);
+}
+
+#heading{
+    font-size:30px;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(161, 161, 221);
+    margin-top: 0%;
+    padding-top: 0%;
+    font-family: cursive;
+    font-weight: 1000;
+    
+}
+
+#me-heading
+{
+    padding-left: 600px;
+    padding-top:0px;
+    font-size: 30px;
+    
+    
+}
+
+#bot-heading
+{
+    padding-left:40%;
+    font-size: 30px;
+}
+.choices{
+    display: flex;
+    gap: 3rem;
+    padding-left: 350px;
+    margin-top: 55px;
+    
+    
+}
+
+#Rock:hover {
+    background-color: rgb(228, 168, 168);
+    border: groove;
+    border-radius: 50px;
+  
+}
+
+
+#paper:hover {
+    background-color: rgb(228, 168, 168);
+    border: groove;
+    border-radius: 50px;
+    
+}
+
+
+#scissors:hover {
+    background-color: rgb(228, 168, 168);
+    border: groove;
+    border-radius: 50px;
+   
+}
+
+
+
+.choices1{
+    display: flex;
+    gap: 2rem;
+    padding-left: 240px;
+   
+}
+img{
+    height: 150px;
+    width: 150px;
+}
+
+#my-point{
+    padding-left: 20px;
+}
+
+
+#com-point{
+    padding-left: 20px;
+}
+.points-board
+{
+    display:flex;
+    gap: 8rem;
+    justify-content: center;
+    padding-top: 25px;
+    font-size: 50px;
+    color: rgb(87, 59, 59);
+    margin-left: 130px;
+    padding-top: 0px;
+    
+  
+   
+   
+}
+
+
+.msg
+{
+    padding-left: 45%;
+    font-size: 50px;
+}
+
+#msg1
+{
+    background-color: rgb(161, 161, 221);
+    height: 80px;
+    border-radius: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+#sc
+{
+    display:flex;
+    justify-content: center;
+    padding-top: 5px;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    margin-left: 130px;
+    padding-top: 100px;   
+}
+
+#alert
+{
+    background-color: aliceblue;
+    height: 530px;
+    width: 25%;
+    text-align: center;
+    margin-left: 850px;
+    border:solid;
+    border-radius: 10%;
+    position: absolute;
+    display: none;
+    
+    
+}
